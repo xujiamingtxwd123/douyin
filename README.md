@@ -1,8 +1,8 @@
 # 抖音开放平台API (In progress)
-[![Go Report Card](https://goreportcard.com/badge/github.com/amorist/douyin)](https://goreportcard.com/report/github.com/amorist/douyin)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gzw13999/douyin)](https://goreportcard.com/report/github.com/gzw13999/douyin)
 
 ## Docs 文档
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/amorist/douyin?tab=doc)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/gzw13999/douyin?tab=doc)
 
 ## Usage 示例
 

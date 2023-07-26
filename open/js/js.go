@@ -1,8 +1,8 @@
 package js
 
 import (
-	"github.com/amorist/douyin/open/context"
-	"github.com/amorist/douyin/open/credential"
+	"github.com/gzw13999/douyin/open/context"
+	"github.com/gzw13999/douyin/open/credential"
 )
 
 // Js struct
@@ -20,7 +20,7 @@ func NewJs(context *context.Context) *Js {
 	return js
 }
 
-//SetJsTicketHandle 自定义js ticket取值方式
+// SetJsTicketHandle 自定义js ticket取值方式
 func (js *Js) SetJsTicketHandle(ticketHandle credential.JsTicketHandle) {
 	js.JsTicketHandle = ticketHandle
 }

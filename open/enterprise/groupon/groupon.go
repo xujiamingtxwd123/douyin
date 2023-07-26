@@ -1,6 +1,6 @@
 package groupon
 
-import "github.com/amorist/douyin/open/context"
+import "github.com/gzw13999/douyin/open/context"
 
 // Groupon .
 type Groupon struct {

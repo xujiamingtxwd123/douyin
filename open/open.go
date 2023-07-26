@@ -1,25 +1,25 @@
 package open
 
 import (
-	"github.com/amorist/douyin/open/config"
-	"github.com/amorist/douyin/open/context"
-	"github.com/amorist/douyin/open/credential"
-	"github.com/amorist/douyin/open/enterprise"
-	"github.com/amorist/douyin/open/image"
-	"github.com/amorist/douyin/open/oauth"
-	"github.com/amorist/douyin/open/pay"
-	"github.com/amorist/douyin/open/poi"
-	"github.com/amorist/douyin/open/search"
-	"github.com/amorist/douyin/open/user"
-	"github.com/amorist/douyin/open/video"
+	"github.com/gzw13999/douyin/open/config"
+	"github.com/gzw13999/douyin/open/context"
+	"github.com/gzw13999/douyin/open/credential"
+	"github.com/gzw13999/douyin/open/enterprise"
+	"github.com/gzw13999/douyin/open/image"
+	"github.com/gzw13999/douyin/open/oauth"
+	"github.com/gzw13999/douyin/open/pay"
+	"github.com/gzw13999/douyin/open/poi"
+	"github.com/gzw13999/douyin/open/search"
+	"github.com/gzw13999/douyin/open/user"
+	"github.com/gzw13999/douyin/open/video"
 )
 
-//API 抖音开放平台API
+// API 抖音开放平台API
 type API struct {
 	ctx *context.Context
 }
 
-//NewOpenAPI 实例抖音开放平台API
+// NewOpenAPI 实例抖音开放平台API
 func NewOpenAPI(cfg *config.Config) *API {
 	defaultAkHandle := credential.NewDefaultAccessToken(cfg.ClientKey, cfg.ClientSecret, credential.CacheKeyPrefix, cfg.Cache)
 	ctx := &context.Context{

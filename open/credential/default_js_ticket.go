@@ -6,14 +6,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amorist/douyin/open/cache"
-	"github.com/amorist/douyin/util"
+	"github.com/gzw13999/douyin/open/cache"
+	"github.com/gzw13999/douyin/util"
 )
 
-//获取ticket的url
+// 获取ticket的url
 const getTicketURL = "https://open.douyin.com/js/getticket?access_token=%s"
 
-//DefaultJsTicket 默认获取js ticket方法
+// DefaultJsTicket 默认获取js ticket方法
 type DefaultJsTicket struct {
 	appID          string
 	cacheKeyPrefix string
@@ -22,7 +22,7 @@ type DefaultJsTicket struct {
 	jsAPITicketLock *sync.Mutex
 }
 
-//NewDefaultJsTicket new
+// NewDefaultJsTicket new
 func NewDefaultJsTicket(appID string, cacheKeyPrefix string, cache cache.Cache) JsTicketHandle {
 	return &DefaultJsTicket{
 		appID:           appID,

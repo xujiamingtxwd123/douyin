@@ -1,9 +1,9 @@
 package douyin
 
 import (
-	"github.com/amorist/douyin/open"
-	"github.com/amorist/douyin/open/cache"
-	"github.com/amorist/douyin/open/config"
+	"github.com/gzw13999/douyin/open"
+	"github.com/gzw13999/douyin/open/cache"
+	"github.com/gzw13999/douyin/open/config"
 )
 
 // Douyin .
@@ -16,12 +16,12 @@ func New() *Douyin {
 	return &Douyin{}
 }
 
-//SetCache 设置cache
+// SetCache 设置cache
 func (douyin *Douyin) SetCache(cahce cache.Cache) {
 	douyin.cache = cahce
 }
 
-//GetOpenAPI 获取开放平台API实例
+// GetOpenAPI 获取开放平台API实例
 func (douyin *Douyin) GetOpenAPI(cfg *config.Config) *open.API {
 	if cfg.Cache == nil {
 		cfg.Cache = douyin.cache
