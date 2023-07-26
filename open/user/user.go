@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	userInfoURL      string = "https://open.douyin.com/oauth/oauth/userinfo?access_token=%s&open_id=%s"
+	userInfoURL      string = "https://open.douyin.com/oauth/userinfo?access_token=%s&open_id=%s"
 	fansListURL      string = "https://open.douyin.com/fans/list?access_token=%s&open_id=%s&cursor=%d&count=%d"
 	followingListURL string = "https://open.douyin.com/following/list?access_token=%s&open_id=%s&cursor=%d&count=%d"
 )
