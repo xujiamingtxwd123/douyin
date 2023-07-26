@@ -22,7 +22,8 @@ const (
 	// 删除视频
 	videoDeleteURL string = "https://open.douyin.com/video/delete?access_token=%s&open_id=%s"
 	// 视频列表
-	videoListURL string = "https://open.douyin.com/video/list?access_token=%s&open_id=%s&cursor=%d&count=%d"
+	videoListURL string = "https://open.douyin.com/api/douyin/v1/video/video_list/?open_id=%s&cursor=%d&count=%d"
+
 	// 视频数据
 	videoDataURL string = "https://open.douyin.com/video/data?access_token=%s&open_id=%s"
 )
@@ -321,9 +322,9 @@ func (video *Video) List(openid string, cursor, count int64) (info *ListInfo, er
 	if err != nil {
 		return
 	}
-	uri := fmt.Sprintf(videoListURL, accessToken, openid, cursor, count)
+	uri := fmt.Sprintf(videoListURL, openid, cursor, count)
 	var response []byte
-	response, err = util.HTTPGet(uri)
+	response, err = util.HTTPGet2(uri, accessToken)
 	if err != nil {
 		return
 	}
