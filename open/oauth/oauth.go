@@ -76,6 +76,6 @@ func (oauth *Oauth) GetUserAccessToken(code string) (accessToken credential.Acce
 	if err != nil {
 		return
 	}
-
+	accessToken = result.Data
 	return
 }
