@@ -50,7 +50,7 @@ type AccessToken struct {
 	ExpiresIn      int64  `json:"expires_in"`
 	RefreshToken   string `json:"refresh_token"`
 	RefreshTokenIn int64  `json:"refresh_expires_in"`
-	OpenID         string `json:"openid"`
+	OpenID         string `json:"open_id"`
 	Scope          string `json:"scope"`
 }
 
