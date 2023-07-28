@@ -318,11 +318,11 @@ type listInfoRes struct {
 }
 
 // List .
-func (video *Video) List(openid string, cursor, count int64) (info *ListInfo, err error) {
-	accessToken, err := video.GetAccessToken(openid)
-	if err != nil {
-		return
-	}
+func (video *Video) List(accessToken, openid string, cursor, count int64) (info *ListInfo, err error) {
+	//accessToken, err := video.GetAccessToken(openid)
+	//if err != nil {
+	//	return
+	//}
 	uri := fmt.Sprintf(videoListURL, openid, cursor, count)
 	var response []byte
 	response, err = util.HTTPGet2(uri, accessToken)
