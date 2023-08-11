@@ -1,6 +1,6 @@
 package pay
 
-import "github.com/gzw13999/douyin/open/context"
+import "github.com/xujiamingtxwd123/douyin/open/context"
 
 // Pay 支付服务
 type Pay struct {

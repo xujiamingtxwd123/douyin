@@ -1,6 +1,6 @@
 package poi
 
-import "github.com/gzw13999/douyin/open/context"
+import "github.com/xujiamingtxwd123/douyin/open/context"
 
 // Poi 生活服务开放能力
 type Poi struct {

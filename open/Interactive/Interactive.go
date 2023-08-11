@@ -1,6 +1,6 @@
 package interactive
 
-import "github.com/gzw13999/douyin/open/context"
+import "github.com/xujiamingtxwd123/douyin/open/context"
 
 // Interactive 互动管理
 type Interactive struct {

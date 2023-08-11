@@ -1,6 +1,6 @@
 package externaldata
 
-import "github.com/gzw13999/douyin/open/context"
+import "github.com/xujiamingtxwd123/douyin/open/context"
 
 // Externaldata 数据开放服务.
 type Externaldata struct {

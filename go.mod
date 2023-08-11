@@ -1,4 +1,4 @@
-module github.com/gzw13999/douyin
+module github.com/xujiamingtxwd123/douyin
 
 go 1.14
 

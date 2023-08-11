@@ -1,17 +1,17 @@
 package open
 
 import (
-	"github.com/gzw13999/douyin/open/config"
-	"github.com/gzw13999/douyin/open/context"
-	"github.com/gzw13999/douyin/open/credential"
-	"github.com/gzw13999/douyin/open/enterprise"
-	"github.com/gzw13999/douyin/open/image"
-	"github.com/gzw13999/douyin/open/oauth"
-	"github.com/gzw13999/douyin/open/pay"
-	"github.com/gzw13999/douyin/open/poi"
-	"github.com/gzw13999/douyin/open/search"
-	"github.com/gzw13999/douyin/open/user"
-	"github.com/gzw13999/douyin/open/video"
+	"github.com/xujiamingtxwd123/douyin/open/config"
+	"github.com/xujiamingtxwd123/douyin/open/context"
+	"github.com/xujiamingtxwd123/douyin/open/credential"
+	"github.com/xujiamingtxwd123/douyin/open/enterprise"
+	"github.com/xujiamingtxwd123/douyin/open/image"
+	"github.com/xujiamingtxwd123/douyin/open/oauth"
+	"github.com/xujiamingtxwd123/douyin/open/pay"
+	"github.com/xujiamingtxwd123/douyin/open/poi"
+	"github.com/xujiamingtxwd123/douyin/open/search"
+	"github.com/xujiamingtxwd123/douyin/open/user"
+	"github.com/xujiamingtxwd123/douyin/open/video"
 )
 
 // API 抖音开放平台API

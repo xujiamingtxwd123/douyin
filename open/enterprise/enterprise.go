@@ -1,11 +1,11 @@
 package enterprise
 
 import (
-	"github.com/gzw13999/douyin/open/context"
-	"github.com/gzw13999/douyin/open/enterprise/groupon"
-	"github.com/gzw13999/douyin/open/enterprise/im"
-	"github.com/gzw13999/douyin/open/enterprise/interactive"
-	"github.com/gzw13999/douyin/open/enterprise/user"
+	"github.com/xujiamingtxwd123/douyin/open/context"
+	"github.com/xujiamingtxwd123/douyin/open/enterprise/groupon"
+	"github.com/xujiamingtxwd123/douyin/open/enterprise/im"
+	"github.com/xujiamingtxwd123/douyin/open/enterprise/interactive"
+	"github.com/xujiamingtxwd123/douyin/open/enterprise/user"
 )
 
 // Enterprise .

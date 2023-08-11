@@ -1,8 +1,8 @@
 package js
 
 import (
-	"github.com/gzw13999/douyin/open/context"
-	"github.com/gzw13999/douyin/open/credential"
+	"github.com/xujiamingtxwd123/douyin/open/context"
+	"github.com/xujiamingtxwd123/douyin/open/credential"
 )
 
 // Js struct

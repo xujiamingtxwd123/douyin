@@ -1,9 +1,9 @@
 package douyin
 
 import (
-	"github.com/gzw13999/douyin/open"
-	"github.com/gzw13999/douyin/open/cache"
-	"github.com/gzw13999/douyin/open/config"
+	"github.com/xujiamingtxwd123/douyin/open"
+	"github.com/xujiamingtxwd123/douyin/open/cache"
+	"github.com/xujiamingtxwd123/douyin/open/config"
 )
 
 // Douyin .
